@@ -28,4 +28,36 @@
 
 
 
+### setup instructions for tailwind
+
+
+   [Official instructions](https://tailwindcss.com/docs/guides/vite)
+
+
+
+   1. insatall tailwind css
+
+   ```
+      npm install -D tailwindcss postcss autoprefixer
+   ``` 
+
+   2. create tailwind configuration file 
+   ```
+     npx tailwindcss init -p
+   ```
+   3. add file  extension to tailwind  config file in contents  property
+
+   ```
+        "./src/**/*.{html,js,ts,jsx,tsx}",
+    ```
+
+    4. Add the Tailwind directives to index.CSS
+    ```
+          @tailwind base;
+          @tailwind components;
+          @tailwind utilities;
+
+    ```
+
+
 
