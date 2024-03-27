@@ -47,17 +47,17 @@
    ```
    3. add file  extension to tailwind  config file in contents  property
 
-   ```
+    ```
         "./src/**/*.{html,js,ts,jsx,tsx}",
     ```
 
-    4. Add the Tailwind directives to index.CSS
-    ```
+    4. Add the Tailwind directives at the topp of the index.CSS
+       ```
           @tailwind base;
           @tailwind components;
           @tailwind utilities;
 
-    ```
+        ```
 
 
 
