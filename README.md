@@ -47,9 +47,10 @@
    ```
    3. add file  extension to tailwind  config file in contents  property
 
-    ```
-        ./src/**/*.{html,js,ts,jsx,tsx},
-    ```
+   ```
+     ./src/**/*.{html,js,ts,jsx,tsx},
+   ```
+
 
 
 
