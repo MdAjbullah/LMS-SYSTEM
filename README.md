@@ -51,6 +51,11 @@
         ./src/**/*.{html,js,ts,jsx,tsx},
     ```
 
+
+
+
+
+
     4. Add the Tailwind directives at the topp of the index.CSS
     ```
           @tailwind base;
