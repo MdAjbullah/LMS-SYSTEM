@@ -2,7 +2,7 @@
 
 import './App.css'
 
-import { Route } from 'react-router-dom'
+import { Routes} from 'react-router-dom'
 
 
 function App() {
